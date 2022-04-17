@@ -76,19 +76,9 @@ body {
 	margin-left: auto; margin-right: auto;
 	margin-top: 20px;
 }
-.main-2{
-	width:952px;
-	margin-left: auto; margin-right: auto;
-	margin-top: 20px;
-}
 
 .left-column{
 	width: 480px;
-	padding-right: 57px;
-	float: left;
-}
-.left-column-2{
-	width: 600px;
 	padding-right: 57px;
 	float: left;
 }
@@ -97,12 +87,6 @@ body {
 	float: left;
 	padding-left:10px;
 }
-.right-column-2{
-	width: 281px;
-	float: left;
-	padding-left:10px;
-}
-
 .seperater{
 	height: 40px;
 	clear: both;
