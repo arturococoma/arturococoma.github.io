@@ -18,45 +18,46 @@
   <div class="navigation">
     <ul>
       <li><a href="index.html">Home</a> </li>
-      <li><a href="#">Research</a> </li>
+      <li><a href="research.html">Research</a> </li>
       <li><a href="publications.html">Publications</a> </li>
+      <li><a href="#.html"><b>Awards</b></a> </li>
       <li><a href="contact.html">Contact</a> </li>
     </ul>
   </div>
 </div>
 <div class="main">
   <div class="left-column">
-    <h1>Research</h1>
-    <p></p>
-    <h2>Deep learning for high-frequency camera pose estimation</h2>
-    <p>
-      In autonomous drone racing, a drone flies through a gate track at high speed. Some solutions involve the use of camera localisation to control the drone. However, effective localisation is very demanding in processing time, which may compromise the flight speed. To address the latter, we propose a deep learning-based method for camera localisation that processes a small sequence of images of the scene at high-frequency operation. Our solution is a compact convolutional neural network based on the Inception network that uses a sequence of grey-scale images rather than colour images as input; we have called this network ‘GreySeqNet’. Our approach aims at leveraging the localisation process by using a small stack of consecutive images fed as input to the network. To save computational effort, we explorethe use of grey images instead of colour images, thus saving convolutional layers. We have conducted experiments in a simulated environment to measure the performance of GreySeqNet in different race tracks with variations in gate’s height and position. According to the results obtained in several test runs, our method achieves a camera pose estimation at an average operation frequency of 83 Hz running on GPU and 26 Hz on CPU, with an average camera pose error of 31 cm.
-    </p>
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/aDlBEtox4vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>Awards & Achievements</h2>
+      <ul>  
 
-    <p>In this work, we present a methodology for autonomous navigation in the context of Autonomous Drone Racing. Using visual information it has a blind spot when the camera is near to the object.  We propose based on CNN gate detect a stochastic algorithm for distance estimation that overcomes the blind spot during autonomous navigation.
-    </p>
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/OBAxb-iFMX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <li>3rd Place in the Game of Drones Competition, Tier 1 (Member of the QuetzalC++ team). Organised by Microsoft and Stanford University at the Thirty-third Annual Conference on Neural Information Processing Systems NeurIPS. Vancouver, Canada. December 2019</li>
+        <br>
+        <li>1st Place in Autonomous Drone Category of the Mexican Tournament of Robotics 2019 (Member of the QuetzalC++ team). Guadalajara, Jalisco, Mexico. March 2019.</li>
+        <br>
+        <li>Research scholarchip of 3,000 MXN granted by the Vicerrectoria de Investigacion y Estudios de Posgrado (VIEP) of the Benemerita Universidad Autonoma de Puebla (BUAP) under the Young Researchers program. Project: "Design and implementation of an algorithm for the discovery in isomorphic graphs" for the period of September 2012 to November 2012 </li>
+        <br>
+        <li>Research scholarchip of 2,000 MXN granted by the Vicerrectoria de Investigacion y Estudios de Posgrado (VIEP) of the Benemerita Universidad Autonoma de Puebla (BUAP) under the Science in your hands program. Project: "Implementation of Artificial Intelligence Algorithms in VHDL" for the period of May 2012 to July 2012 </li>
+        <br>
+        <li>Research scholarchip of 3,000 MXN granted by the Vicerrectoria de Investigacion y Estudios de Posgrado (VIEP) of the Benemerita Universidad Autonoma de Puebla (BUAP) under the Young Researchers program. Project: "Construction of a LEGO-based robot explorer prototype" for the period of February 2012 to May 2012 </li>
+        <br>
+        <li>Honour Mention in the 2004 ACM International Collegiate Programming Contest México – Centroamérica. Córdoba, Veracruz, México. October 2004.</li>
+        <br>
+        <li>Bronze medal in the Mexican Olympiad in Informatics. Pachuca, Hidalgo, México. June 2003.</li>
+        <br>
+        <li>Fisrt place in local contest for the Mexican Olympiad in Informatics. Puebla, Puebla, México. November 2002. </li>
+        <br>
+        <li>Honourable Mention in local contest for the Mexican Olympiad in Informatics. Puebla, Puebla, México. November 2000.</li>
 
-    <p>In this video, We show our proposed algorithm designed to autonomous Drone flight in the context of Autonomous Drone Racing. Our proposed algorithm is based on CNN to predict the drone's pose. Our algorithm takes the pose and commands the drone to centre to the gate and then cross it. The first part of the video shows the results testing drone's pose prediction vs groundtruth. The second part demonstrated an autonomous flight to cross three gates in a real environment race track. Our proposed CNN can estimates the drones pose at high speed up to 100 Hz.</p>
+      </ul> 
 
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/C7goGTZ4F0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <p>To fly through a gate in the ADR context, it would be important to know the position of the drone related to the gate in order to design a flight trajectory that can cross the gate. In this video, we show our proposed algorithm based on CNN to predict the Drone's pose and based on this pose our algorithm commands the Drone to cross the gate. At begin, it is shown the prediction vs the ground truth in 2D and 3D view, finally, we present our algorithm in action, it crosses three gates autonomously in a simulated environment.</p>
-
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/5rboqinFXYo" title="A CNN based Drone localisation Approach" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <h2>Real-time system for Rodent detection and behavioural classification</h2>
-    <p>Animal models are helpful to evaluate the effects of some drugs in the treatment of brain diseases, such as the case of the Open Field Maze. Usually, these tests are recorded in video and analysed afterwards to carry out manual annotations about the activity and behaviour of the rat. Usually, these videos must be watched repeatedly to ensure correct annotations, but they are prone to become a tedious task and are highly likely to produce human errors. Existing commercial systems for automatic detection of the rat and classification of its behaviours may become inaccessible for research teams that cannot afford the license cost. Motivated by the latter, we propose a methodology for simultaneous rat detection and behaviour classification using inexpensive hardware in this work. Our proposal is a Deep Learning-based two-step methodology to simultaneously detect the rat in the test and classify its behaviour. In the first step, a single shot detector network is used to detect the rat; then, the systems crop the image using the bounding box to generate a sequence of six images that input our BehavioursNet network to classify the rodent’s behaviour. Finally, based on the results of these steps, the system generates an ethogram for the complete video, a trajectory plot, a heatmap plot for most visited regions and a video showing the rat’s detection and its behaviours. Our results show that it is possible to perform these tasks at a processing rate of 23 Hz, with a low error of 6 pixels in the detection and a first approach to classify ambiguous behaviours such as resting and grooming, with an average precision of 60%, which is competitive with that reported in the literature.</p>
-
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/wTie0FvzjGI" title="A deep learning-based approach for real-time rodent detection and behaviour classification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    <p>To analyze rodent behaviors in non-conditioned animal models is an important task that enables a researcher to elaborated conclusions about the effects in the behavior after drug application. Because the amount of data generated in the use of this kind of test, an automatized system that can record these behaviors becomes relevant. There are several proposals aiming at identifying and tracking the rodent in the open field maze, however, behavior identification is a highly desirable feature that is not included. Other works can identify behaviors, but due to high computational costs, special computers or devices are required. In this work, we propose an automatic system based on features computed by a stochastic filter that allows the development of rules to detect specific behaviors exhibited in the open field maze. We demonstrate that it is possible to track a rodent and identify behaviors in real-time (30 fps) and also in high speed (>100Hz) without the need of powerful devices or special conditions for the environment.</p>
-    <iframe width="480" height="315" src="https://www.youtube.com/embed/6Smkff19r14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+      <img src="images/game_of_drones_tier_1.png" alt="Game of Drones" width="480" height="320" class="padd-bottom" />
+      <img src="images/tmr2019AD.jpg" alt="Torneo Mexicano de Robotica" width="480" height="320" class="padd-bottom" />
+      <img src="images/viep_1.jpg" alt="Jovenes Inviestigadores" width="238" height="320" class="padd-bottom" />
+      <img src="images/viep_2.jpg" alt="Jovenes Inviestigadores" width="238" height="320" class="padd-bottom" />
+      <img src="images/viep_3.jpg" alt="Jovenes Inviestigadores" width="238" height="320" class="padd-bottom" />
 
   </div>
-  <div class="right-column"><img src="images/arturo_3.png" alt="" width="260" height="340" class="padd-bottom" />
+  <div class="right-column">
     <h3>Follow my social and academic networks:</h3>
 
    
